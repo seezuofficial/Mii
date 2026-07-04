@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Minnu × Chhota Don 💕</title>
+<title>Minnu × sinnu 💕</title>
 <style>
 /* ============================================================
-   MINNU × CHHOTA DON — SHARED DESIGN SYSTEM
+   MINNU × SINNU — SHARED DESIGN SYSTEM
    Fonts: Playfair Display (display/serif) + Poppins (body) + Caveat (handwritten accents)
    ============================================================ */
 
@@ -427,7 +427,7 @@ a{color:inherit;text-decoration:none;}
 </div>
 
 <nav class="site-nav">
-  <div class="brand">Minnu × Chhota Don</div>
+  <div class="brand">Minnu × Sinnu</div>
   <div style="display:flex;align-items:center;flex-wrap:wrap;">
     <div class="nav-links">
       <a href="#" data-page="home" class="active">Home</a>
@@ -592,7 +592,7 @@ a{color:inherit;text-decoration:none;}
     <div class="game-card glass reveal">
       <h3 class="display">Love Calculator 💘</h3>
       <form id="love-calc-form">
-        <input type="text" placeholder="Chhota Don" required style="width:100%;padding:10px;margin:8px 0;border-radius:10px;border:1px solid var(--glass-border);background:rgba(255,255,255,0.06);color:var(--text-main);">
+        <input type="text" placeholder="sinnu" required style="width:100%;padding:10px;margin:8px 0;border-radius:10px;border:1px solid var(--glass-border);background:rgba(255,255,255,0.06);color:var(--text-main);">
         <input type="text" placeholder="Minnu" required style="width:100%;padding:10px;margin:8px 0;border-radius:10px;border:1px solid var(--glass-border);background:rgba(255,255,255,0.06);color:var(--text-main);">
         <button class="btn" type="submit" style="width:100%;justify-content:center;">Calculate 💗</button>
       </form>
@@ -1391,7 +1391,7 @@ const CLOSERS = {
   bored: "Ab bore hone ka license cancel — mujhse baat kar. 😜",
 };
 
-const SIGNS = ["— Tera Chhota Don 🖤", "— Sirf tera, Chhota Don 💌", "— Forever tera Don 👑💕"];
+const SIGNS = ["— sinnu 🖤", "— Sirf tera, sinnu 💌", "— Forever tera sinnu 👑💕"];
 
 function generateLoveMessage(mood, occasion){
   const opener = OPENERS[mood] ? OPENERS[mood][Math.floor(Math.random()*OPENERS[mood].length)] : OPENERS.romantic[0];
@@ -1507,7 +1507,7 @@ function spawnTreasureForView(name){
   const lockMsg = document.getElementById('lock-msg');
   if(!lockScreen) return;
   const roasts = [
-    "Galat password. Chhota Don ka empire itni aasani se nahi khulta. 😤",
+    "Galat password. sinnu ka empire itni aasani se nahi khulta. 😤",
     "Nahi Minnu, yeh sahi nahi hai. Ek aur try? 😏",
     "Password galat, dil sahi hai — phir bhi try karo. 💔😂",
     "Beta, yeh koi random guess ka khel nahi hai. 🔐"
@@ -1898,7 +1898,7 @@ function spawnTreasureForView(name){
   });
   document.getElementById('no-btn').addEventListener('click', ()=>{
     const r = document.getElementById('ending-response');
-    r.textContent = "😢 Chhota Don is crying dramatically on the floor...";
+    r.textContent = "😢 sinnu is crying dramatically on the floor...";
     setTimeout(()=>{
       r.textContent = "Jk, tumhare paas 'no' bolne ka option hi nahi tha. Forever it is. 😂💖";
       fireConfetti(3200);
